@@ -1,5 +1,6 @@
 /* web font Jost => font-family: 'Jost', sans-serif; */
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -13,11 +14,11 @@
     text-transform: capitalize;
 }
 
-a{
+a {
     text-decoration: none !important;
 }
 
-body{
+body {
     font-family: 'Jost', sans-serif;
 }
 
@@ -30,37 +31,49 @@ body{
     font-size: 18px;
 }
 
+
 /* Quang */
-    /* Theme */
+
+
+/* Theme */
 
 .header__nav #choose__theme i {
     font-size: 20px;
     line-height: 1.5;
     color: #696969;
 }
-i.far.fa-sun{
+
+i.far.fa-sun {
     display: none;
 }
-.header__nav #choose__theme.moon__theme i.far.fa-sun{
+
+.header__nav #choose__theme.moon__theme i.far.fa-sun {
     display: block;
 }
-.header__nav #choose__theme.moon__theme i.far.fa-moon{
+
+.header__nav #choose__theme.moon__theme i.far.fa-moon {
     display: none;
 }
+
 #choose__theme {
     position: relative;
 }
-.dark__theme .navbar-nav li.active a{
-    color:#189A46 !important;
+
+.dark__theme .navbar-nav li.active a {
+    color: #189A46 !important;
 }
+
 .dark__theme .navbar-nav li a {
     color: #fff !important;
 }
+
 .dark__theme {
     background-color: #000 !important;
 }
 
-    /* Theme */
+
+/* Theme */
+
 .header__nav {
     position: fixed;
     width: 100%;
@@ -85,16 +98,17 @@ i.far.fa-sun{
     color: #189A46;
 }
 
-.fa-angle-down{
+.fa-angle-down {
     font-size: 14px;
     padding-left: 2px;
     font-weight: 600;
 }
-.dropdown-menu{
+
+.dropdown-menu {
     position: absolute !important;
 }
 
-.header__nav .navbar-nav{
+.header__nav .navbar-nav {
     flex-direction: row;
 }
 
@@ -137,8 +151,8 @@ i.far.fa-sun{
     position: relative;
 }
 
-/* slide */
 
+/* slide */
 
 .slide {
     position: relative;
@@ -155,9 +169,11 @@ i.far.fa-sun{
 .slide__1 {
     background-image: url(../images/banner3.jpg);
 }
+
 .slide__2 {
     background-image: url(../images/banner2.jpg);
 }
+
 .slide__3 {
     background-image: url(../images/banner1.jpg);
 }
@@ -166,42 +182,441 @@ i.far.fa-sun{
     position: absolute;
     top: 50%;
 }
-.btn__slide{
-    
-border: 2px solid #fff;
-    
-color: #fff;
-    
-padding: 10px 35px;
-    
-font-size: 18px;
-    
-line-height: 28px;
-    
-text-transform: capitalize;
-    
-font-weight: 400;
-    
-transition: 0.3s ease-in;
-    
-border-radius: 10px;
+
+.btn__slide {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
 }
 
 .btn__slide:hover {
     background: #fff;
     color: #189A46;
 }
-.btn__slide.active{
+
+.btn__slide.active {
     background: #fff;
     color: #189A46;
 }
-.slide__overlay{
+
+.slide__overlay {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: #0c0c0c;
     opacity: .6;
 }
+
+
 /* slide */
+
+
+/* about us */
+
+.about__title {
+    text-align: center;
+}
+
+.about__title h2 {
+    color: rgb(245, 54, 38);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about__title h1 {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: Jost, sans-serif;
+}
+
+.about__title p {
+    font-weight: 600;
+    color: rgb(105, 105, 105);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.about__title a {
+    font-weight: 600;
+    color: rgb(0, 12, 4);
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.4s;
+    text-decoration: none;
+    border-bottom: 3px solid rgb(24, 154, 70);
+    text-transform: capitalize;
+    font-family: Jost, sans-serif;
+}
+
+.about__title a:hover {
+    color: rgb(24, 154, 70);
+}
+
+
+/* about us */
+
+
+/* services */
+
+.services {
+    width: 100%;
+}
+
+.services .services__slider {
+    background-color: rgba(147, 107, 232, 0.1);
+}
+
+.services .services__slider .services__list {
+    background-color: white;
+    margin: 10px;
+}
+
+.services .services__slider .services__list .services__font {
+    padding: 30px 10px
+}
+
+.services .services__slider .services__list .services__icon i {
+    font-size: 30px;
+    color: rgb(24, 154, 70);
+}
+
+.services .services__slider .services__list h1 {
+    font-size: 22.77px;
+    color: rgb(0, 12, 4);
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.services .services__slider .services__list p {
+    color: rgb(105, 105, 105);
+    font-weight: 400;
+    font-size: 19.2px;
+    line-height: 28px;
+    font-family: 'Jost', sans-serif;
+}
+
+.services .services__slider .services__list a {
+    font-weight: 600;
+    color: rgb(0, 12, 4);
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.4s;
+    text-decoration: none;
+    border-bottom: 3px solid rgb(24, 154, 70);
+    text-transform: capitalize;
+    font-family: Jost, sans-serif;
+}
+
+.services .services__slider .services__list a:hover {
+    color: rgb(24, 154, 70);
+}
+
+
+/* services */
+
+
+/* MY CHOOSE US */
+
+.choose__header {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.choose__header img {
+    width: 100%;
+    border-radius: 10px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.choose__header .choose__title {
+    margin-left: 20px;
+    align-self: center;
+}
+
+.choose__header .choose__title h2 {
+    color: rgb(245, 54, 38);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.choose__header .choose__title h1 {
+    color: rgb(0, 12, 4);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.choose__header .choose__title p {
+    color: rgb(105, 105, 105);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.choose__header .choose__title li {
+    color: rgb(0, 12, 4);
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.choose__header .choose__title .choose__icon {
+    color: rgb(24, 154, 70);
+    background-color: rgba(147, 107, 232, 0.05);
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+
+/* MY CHOOSE US */
+
+
+/* number jump */
+
+.number .number_content {
+    color: white;
+    background-color: rgb(24, 154, 70);
+    text-align: center;
+}
+
+.number .number_content .number__item {}
+
+.number .number_content .number__counter {
+    font-size: 40px;
+    font-family: 600;
+}
+
+.number .number_content h2 {
+    font-size: 18px;
+    font-family: 400;
+    color: rgb(255, 255, 255);
+    font-family: jost, sans-serif;
+}
+
+
+/* number jump */
+
+
+/* video */
+
+.videopet__header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.videopet .videopet__content {
+    text-align: center;
+}
+
+.videopet .videopet__content h2 {
+    color: rgb(245, 54, 38);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+}
+
+.videopet .videopet__content h3 {
+    color: rgb(0, 12, 4);
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+}
+
+.videopet .videopet__content p {
+    color: rgb(105, 105, 105);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.videopet__video {
+    width: 90%;
+    margin: 30px auto;
+    height: 100%;
+}
+
+.videopet__video img {
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.videopet__video .videopet__over {
+    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/02-07-2020/pooch-care-liberty-demo_Free/1396504601/web/assets/images/banner2.jpg");
+    background-size: cover;
+    height: 520px;
+}
+
+.videopet__video .videopet__nut {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: blanchedalmond;
+    color: rgb(24, 154, 70);
+    /* justify-content: center; */
+    /* align-self: center; */
+    /* text-align: center; */
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    z-index: 5;
+    border-radius: 50%;
+    transform: translate(-50% -50%);
+}
+
+.videopet__video .videopet__dautron1 {
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 250px;
+    background-color: rgb(24, 154, 70);
+    width: 60px;
+    height: 60px;
+    z-index: 5;
+    border-radius: 50%;
+    animation: lantoa1 1s ease-out;
+    animation-iteration-count: infinite;
+}
+
+.videopet__video .videopet__dautron2 {
+    padding: 10px;
+    top: -10px;
+    left: -10px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    width: 80px;
+    height: 80px;
+    border: solid 10px rgb(24, 154, 70);
+    display: block;
+    animation: lantoa2 1s ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lantoa1 {
+    0% {
+        -webkit-transform: scale(1, 1);
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        -webkit-transform: scale(1.2, 1.2);
+        opacity: 0.0;
+    }
+}
+
+@keyframes lantoa2 {
+    from {
+        opacity: 0.8;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+}
+
+.videopet__video .videopet__icon2:hover {
+    font-size: 20px;
+    background-color: white;
+    padding: 25px;
+    position: relative;
+    /* justify-content: center; */
+    /* align-self: center; */
+    /* text-align: center; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.videopet__over {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+/* video */
+
+
+/* subscribe */
+
+.subscribe .subscribe__header {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.subscribe .subscribe__header h1 {
+    font-size: 35px;
+    color: rgb(0, 12, 4);
+    font-weight: 600;
+    font-family: Jost, sans-serif;
+}
+
+.subscribe .subscribe__header p {
+    font-size: 19px;
+    color: rgb(105, 105, 105);
+    font-weight: 400;
+    font-family: Jost, sans-serif;
+}
+
+.subscribe .subscribe__header .subcribe__infor {
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe .subscribe__header .subscribe__input {
+    border-radius: 10px;
+    font-size: 18px;
+    width: 100%;
+    padding: 0 12px;
+    border: solid 1px rgb(206, 212, 218);
+    cursor: pointer;
+}
+
+.subscribe .subscribe__header button {
+    padding: 12px 40px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: all 0.4s;
+    border-radius: 10px;
+}
+
+
+/* subscribe */
+
+
+/* backtotop */
+
+.muiten {
+    font-size: 15px;
+    color: white;
+    background-color: rgb(24, 154, 70);
+    border-radius: 50%;
+    padding: 20px;
+    bottom: 100px;
+    right: 10px;
+    position: fixed;
+    display: block;
+    text-align: center;
+}
+
+
+/* backtotop */
