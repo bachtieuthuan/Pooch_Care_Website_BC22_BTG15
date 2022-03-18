@@ -222,6 +222,7 @@ i.far.fa-sun {
 /* about us */
 
 .about__title {
+    margin: 80px auto;
     text-align: center;
 }
 
@@ -268,17 +269,26 @@ i.far.fa-sun {
 
 /* services */
 
+
+/* rgba(147, 107, 232, 0.1)*/
+
 .services {
     width: 100%;
+    background-color: rgba(147, 107, 232, 0.1);
 }
 
 .services .services__slider {
-    background-color: rgba(147, 107, 232, 0.1);
+    padding: 80px 0;
 }
 
 .services .services__slider .services__list {
     background-color: white;
     margin: 10px;
+    transition: all 0.4s;
+}
+
+.services .services__slider .services__list:hover {
+    background-color: rgba(147, 107, 232, 0.1);
 }
 
 .services .services__slider .services__list .services__font {
@@ -296,6 +306,12 @@ i.far.fa-sun {
     font-family: 'Jost', sans-serif;
     font-weight: 600;
     text-transform: capitalize;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.services .services__slider .services__list h1:hover {
+    color: rgb(24, 154, 70);
 }
 
 .services .services__slider .services__list p {
@@ -385,17 +401,22 @@ i.far.fa-sun {
 
 /* number jump */
 
-.number .number_content {
-    color: white;
+.number {
+    width: 100%;
     background-color: rgb(24, 154, 70);
-    text-align: center;
+    margin: 40px 0;
 }
 
-.number .number_content .number__item {}
+.number .number_content {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
 
 .number .number_content .number__counter {
-    font-size: 40px;
+    font-size: 50px;
     font-family: 600;
+    font-weight: 700;
 }
 
 .number .number_content h2 {
@@ -559,7 +580,7 @@ i.far.fa-sun {
 .subscribe .subscribe__header {
     text-align: center;
     width: 50%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .subscribe .subscribe__header h1 {
@@ -591,7 +612,7 @@ i.far.fa-sun {
 }
 
 .subscribe .subscribe__header button {
-    padding: 12px 40px;
+    padding: 12px 50px;
     font-size: 18px;
     text-transform: capitalize;
     font-weight: 400;
