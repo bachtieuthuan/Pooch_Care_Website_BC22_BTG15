@@ -6,12 +6,9 @@
     box-sizing: border-box;
 }
 
-.slide__item .content h1 {
-    font-size: 66px;
-    line-height: 76px;
-    font-weight: 700;
-    color: #fff;
-    text-transform: capitalize;
+img {
+    width: 100%;
+    height: 100%;
 }
 
 a {
@@ -21,19 +18,124 @@ a {
 body {
     font-family: 'Jost', sans-serif;
 }
+/* nav  right :  Quang */
+.navRight__toggle i {
+    background: #0D1326;
+    padding: 20px;
+    text-align: center;
+    color: #e6ebff;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: .5;
+}
 
-.slide__item .content p {
-    color: #fff;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 30px;
-    opacity: 0.9;
-    font-size: 18px;
+.navRight__toggle {
+    text-align: center;
+}
+
+.navRight__content ul li a {
+    display: block;
+    color: #e6ebff;
+    line-height: 24px;
+    opacity: .6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.navRight__content ul li a:hover {
+    opacity: 1;
+}
+
+.navRight__content ul {
+    border-top: 1px solid #41414d;
+    padding-top: 30px;
+    list-style: none;
+}
+
+.navRight__content {
+    padding: 40px 5px;
+    padding-top: 10px;
+    margin-bottom: 70px;
+    background: #0D1326;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.navRight {
+    position: fixed;
+    right: 0;
+    top: 10%;
+    z-index: 9999;
+}
+
+/* nav  right :  Quang */
+/* footerr : Quang */
+.footer__content {
+    padding: 50px 0;
+}
+
+.copyright p {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #696969;
+    margin-bottom: 0;
+}
+
+.copyright p a {
+    color: #f53626;
+}
+
+.copyright {
+    text-align: center;
+    padding: 25px 0;
+    border-top: 1px solid rgba(103, 99, 99, 0.14);
+}
+
+.footer__item .social ul li a i {
+    font-size: 16px;
+    line-height: 28px;
 }
 
 
-/* Quang */
+.footer__item ul li {
+    color: #696969;
+}
 
+.footer__item ul li a {
+    color: #696969;
+}
+
+.footer__item ul li a:hover {
+    color: #fff;
+    text-decoration: underline !important;
+}
+
+.footer__item ul {
+    list-style: none;
+}
+
+.footer__item .social ul li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+.footer__item h1 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+footer {
+    background: #111;
+}
+
+/* footerr : Quang */
 
 /* Theme */
 
@@ -152,8 +254,23 @@ i.far.fa-sun {
 }
 
 
-/* slide */
+/* slide : Quang  */
+.slide__item .content h1 {
+    font-size: 66px;
+    line-height: 76px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
 
+.slide__item .content p {
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    opacity: 0.9;
+    font-size: 18px;
+}
 .slide {
     position: relative;
     overflow: hidden;
@@ -216,7 +333,7 @@ i.far.fa-sun {
 }
 
 
-/* slide */
+/* slide : Quang */
 
 
 /* about us */
@@ -641,3 +758,126 @@ i.far.fa-sun {
 
 
 /* backtotop */
+
+/* testimonial : Quang*/
+.testimonials__dots li button{
+    width: 14px;
+    height: 14px;
+    background: #d8d8d8;
+    border-radius: 25px;
+}
+.testimonials__dots li button:before{
+    content: "";
+}
+.testimonials__dots li.slick-active button:before{
+    background: #189A46;
+    border-radius: 25px;
+    width: 30px;
+    height: 14px;
+    opacity: 1;
+}
+.testimonials__dots li button:hover{
+    background: #189A46;
+    border-radius: 25px;
+    width: 30px;
+    height: 14px;
+    opacity: 1;
+}
+.testimonials__dots li{
+    margin: 0 10px;
+}
+.testimonials__dots{
+    margin-top: 20px;
+    position: inherit;
+}
+
+
+.testimonial__content {
+    padding: 10px;
+}
+
+.testimonil__info p {
+    color: #777;
+    font-size: 17px;
+    font-style: normal;
+    margin-bottom: 0;
+    text-align: left;
+    opacity: 0.8;
+}
+
+.testimonil__info h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.testimonil__info {
+    margin: 0;
+    margin-left: 20px;
+    text-align: left;
+}
+
+
+.testimonil__img {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.testimonil__desc {
+    display: flex;
+    align-items: center;
+}
+
+blockquote q {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+blockquote {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    margin-bottom: 15px;
+    color: #696969;
+}
+
+section.TESTIMONIALS {
+    background: rgba(147, 107, 232, 0.05);
+    padding: 50px 0;
+}
+
+.testimonil {
+    display: block;
+    margin: 0;
+    padding: 40px 30px;
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 25px 98px 0 rgb(19 19 19 / 3%);
+}
+
+.testimonials__title h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #000c04;
+}
+
+.testimonials__title h3 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+
+.testimonials__title {
+    text-align: center;
+}
+/* testimonial : Quang*/
